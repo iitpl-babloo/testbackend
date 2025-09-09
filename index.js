@@ -7,9 +7,10 @@ const app = express();
 connectDB();
 
 app.use("/",userRouter)
-app.get("/api/hello",(req,res)=>{
-    res.send("hello word")
+app.get("/api",(req,res)=>{
+    res.send("hello babloo")
 })
+
 
 
 app.listen(5000,()=>{
