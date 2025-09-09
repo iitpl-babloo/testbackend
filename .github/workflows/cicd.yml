@@ -39,6 +39,6 @@ jobs:
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: BjtGbvercLdtBk9ltDCsdske
-          vercel-org-id: babloos-projects-5cd6b724
+          vercel-org-id: pvgzBpzsgdqyaxGmPoi51dny
           vercel-project-id: prj_6pRZeRibu6rwbW5a6lXET2HaVDsC
           working-directory: ./
