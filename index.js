@@ -11,6 +11,11 @@ app.get("/api",(req,res)=>{
     res.send("hello babloo")
 })
 
+app.get("/api/user",(req,res)=>{
+    res.send("hello user")
+})
+
+
 
 
 app.listen(5000,()=>{
